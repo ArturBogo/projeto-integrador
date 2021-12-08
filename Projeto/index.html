@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volans</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sweetalert2@9/dist/sweetalert2.all.js"></script>
+</head>
+
+<body>
+
+    <div class="topo">
+        <img id="logo" src="logo.png" alt="logo">
+        <p style="line-height: 30px">
+            <img class="icone" src="email.png" alt="email">
+            E-mail
+            <img class="icone" src="telefone.png" alt="telefone">
+           <a href="login.html" id="usuarioLogin">Login</a>
+        </p>
+    </div>
+    <div class="navbar">
+
+        <div class="dropdown nav"><a class="botaodropdown">Categorias</a>
+            <div class="conteudo-dropdown">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+
+        <div class="lancamentos nav"><a href="lancamentos.html">Lançamentos</a></div>
+
+        <div class="sobre nav"><a href="sobre.html">Sobre</a></div>
+
+    </div>
+    <div class="slideshow-container">
+
+        <div class="carrossel">
+            <img src="carrossel1.jpg" style="width:100%">
+        </div>
+
+        <div class="carrossel">
+            <img src="carrossel2.jpg" style="width:100%">
+        </div>
+
+        <div class="carrossel">
+            <img src="carrossel3.jpg" style="width:100%">
+        </div>
+
+        <div class="carrossel">
+            <img src="carrossel4.jpg" style="width:100%">
+        </div>
+
+    </div>
+    <h1>Promoções</h1>
+    <div class="grid-container">
+        <div class="card">
+            <img src="camisa (8).jpeg" alt="Bermuda" style="width:100%">
+            <h1>Bermuda colorida</h1>
+            <p class="price">R$59,90</p>
+
+            <p><button>Comprar</button></p>
+        </div>
+        <div class="card">
+            <img src="jeansrasgada.jpeg" alt="Jeans" style="width:100%">
+            <h1>Calça Jeans Rasgada</h1>
+            <p class="price">R$99,90</p>
+
+            <p><button>Comprar</button></p>
+        </div>
+        <div class="card">
+            <img src="moletomrosa.jpeg" alt="Moletom rosa" style="width:100%">
+            <h1>Moletom Rosa</h1>
+            <p class="price">R$79,90</p>
+
+            <p><button>Comprar</button></p>
+        </div>
+        <div class="card">
+            <img src="calçamoletom.jpeg" alt="Calça de moletom" style="width:100%">
+            <h1>Calça Moletom</h1>
+            <p class="price">R$69,90</p>
+
+            <p><button>Comprar</button></p>
+        </div>
+        <div class="card">
+            <img src="moletomcropped.jpeg" alt="Moletom cropped" style="width:100%">
+            <h1>Moletom Cropped</h1>
+            <p class="price">R$99,90</p>
+
+            <p><button>Comprar</button></p>
+        </div>
+        <div class="card">
+            <img src="moletomPS.jpeg" alt="Moletom estampado" style="width:100%">
+            <h1>Moletom Estampado</h1>
+            <p class="price">R$139,90</p>
+
+            <p><button>Comprar</button></p>
+        </div>
+
+    </div>
+
+    <div class="banner">
+        <img src="banner.png">
+    </div>
+    <footer>
+      <!---  <img src="logo2.png"> -->
+        <p>Copyright 2020 © Volans</p>
+    </footer>
+    
+    
+    
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-firestore.js"></script>
+    
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<!-- Initialize Firebase -->
+<script src="init.js"></script>
+<script src="script.js"></script>
+    <script src="auth.js"></script>
+
+</body>
+
+</html>

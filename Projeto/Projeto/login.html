@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Volans</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="topo">
+      <img id="logo" src="logo.png" alt="logo" />
+      <p style="line-height: 30px">
+        <img class="icone" src="email.png" alt="email" />
+        E-mail
+        <img class="icone" src="telefone.png" alt="telefone" />
+        Telefone
+      </p>
+    </div>
+    <div class="navbar">
+      <div class="dropdown nav">
+        <a class="botaodropdown">Categorias</a>
+        <div class="conteudo-dropdown">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+
+      <div class="lancamentos nav">
+        <a href="lancamentos.html">Lançamentos</a>
+      </div>
+
+      <div class="sobre nav"><a href="sobre.html">Sobre</a></div>
+    </div>
+    <div class="containerlogin">
+      <form action="index.html" method="post">
+        <div class="container">
+          <div class="form-group">
+          <label for="email"><b>E-mail</b></label>
+          <input type="text" id="email" name="email" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="psw"><b>Senha</b></label>
+          <input type="password" id="psw" name="psw" class="form-control">
+        </div>
+          <button type="button" onclick="login()">Login</button>
+        </div>
+
+        <div class="container" style="background-color: #f1f1f1">
+          <button type="button" class="cancelbtn" onclick="sair()">
+            Cancelar
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <footer>
+      <p>Copyright 2020 © Volans</p>
+    </footer>
+    <script src="init.js"></script>
+    <script src="auth.js"></script>
+    
+  </body>
+</html>
