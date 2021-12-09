@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volans</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sweetalert2@9/dist/sweetalert2.all.js"></script>
+</head>
+
+<body>
+
+    <div class="topo">
+        <img id="logo" src="logo.png" alt="logo">
+        <p style="line-height: 30px">
+            <img class="icone" src="email.png" alt="email">
+             <a href="#" id="usuarioLogin">E-mail</a>
+            <img class="icone" src="telefone.png" alt="telefone">
+           <a href="#" id="usuarioLogin">Contato</a>
+        </p>
+    </div>
+    <div class="navbar">
+
+        <div class="dropdown nav"><a href="index.html">Procedimentos</a>
+            
+        </div>
+
+        <div class="lancamentos nav"><a href="horarios.html">Meus Horários</a></div>
+
+        <div class="sobre nav"><a href="sobre.html">Sobre</a></div>
+
+         <div class="login nav"><a href="login.html">Fazer Login</a></div>
+
+    </div>
+    
+    
+    <div class="grid-container2">
+    <div class="card2">
+        <h2>Botox</h2><br>
+        <img src="botox.png" alt="Moletom rosa" style="width:30%"> <br>
+       
+
+        O Botox impede que uma rugas sejam formadas ou repõe o<br> volume de algumas áreas do rosto, melhorando seu contorno.<br> 
+    
+        <div class="agendar">
+            <button>Realizar Agendamento</button><br>
+            <h3>Deixe sua avaliação:</h3>
+            <form>
+            <textarea rows="4" cols="50"></textarea><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        </div>
+        
+    </div>
+
+
+    
+    
+
+    
+    <footer>
+      <!---  <img src="logo2.png"> -->
+        <p>Copyright 2020 © Volans</p>
+    </footer>
+    
+    
+    
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-firestore.js"></script>
+    
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<!-- Initialize Firebase -->
+<script src="init.js"></script>
+<script src="script.js"></script>
+    <script src="auth.js"></script>
+
+</body>
+
+</html>
